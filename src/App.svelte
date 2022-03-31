@@ -1,10 +1,17 @@
 <script>
 	export let name;
+	import PowerValues from "./components/PowerValues.svelte";
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+
+	<PowerValues power={53} text={"max"}></PowerValues>
+	<PowerValues power={78} text={"min"}></PowerValues>
+	<PowerValues power={23} text={"current"}></PowerValues>
+
+	TEST!
 </main>
 
 <style>
