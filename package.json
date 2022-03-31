@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "svelte-app",
   "version": "1.0.0",
   "private": true,
@@ -19,10 +18,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0"
-=======
-  "dependencies": {
+    "sirv-cli": "^2.0.0",
     "svelte": "^3.46.5"
->>>>>>> 6aab9bf20394ea04c81673844e18d506e2557e4d
   }
 }
